@@ -17,6 +17,8 @@ app.use('/api', router)
 
 
 const Port = process.env.PORT  || 8000
-app.listen(Port, () => {
-    console.log(`Server is running on ${Port}`)
-})
+// app.listen(Port, () => {
+//     console.log(`Server is running on ${Port}`)
+// })
+
+export default app;
